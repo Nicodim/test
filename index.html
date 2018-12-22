@@ -5,6 +5,7 @@
   <title>Красный Ресторан</title>
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
   <header class="page-header">
@@ -31,7 +32,7 @@
       </div>
     </nav>
     <a class="page-header__logo">
-      <img class="page-header__logo-image" src="img/logotype-mobile.svg" width="64" height="64" alt="Лого Ресторана">
+      <img class="page-header__logo-image" src="img/logo.png" width="64" height="64" alt="Лого Ресторана">
     </a>
     <div class="person">
 
@@ -46,15 +47,15 @@
       <div class="order__container">
         <ul class="order__list">
           <li class="order__item">
-            <p>Кухня</p>
+            <p class="order__name">Кухня</p>
             <b class="order__details">Восточная</b>
           </li>
           <li class="order__item">
-            <p>Заказ</p>
+            <p class="order__name">Заказ</p>
             <b class="order__details">От 1000 ₽</b>
           </li>
           <li class="order__item">
-            <p>Доставка</p>
+            <p class="order__name">Доставка</p>
             <b class="order__details">с 11:00 до 02:00</b>
           </li>
         </ul>
@@ -65,7 +66,7 @@
         Категории
       </h2>
       <ul class="categories__list">
-        <li class="categories__item categories__item--active"><a class="categories__link">Популярные</a></li>
+        <li class="categories__item categories__item--active"><a class="categories__link categories__link--active">Популярные</a></li>
         <li class="categories__item"><a href="" class="categories__link">Горячее</a></li>
         <li class="categories__item"><a href="" class="categories__link">Гарниры</a></li>
         <li class="categories__item"><a href="" class="categories__link">Выпечка</a></li>
@@ -81,17 +82,17 @@
       </ul>
     </section>
     <section class="catalog">
-      <h3 class="catalog__title">Популярные блюда</h3>
+      <h3 class="catalog__title">Популярные</h3>
       <div class="catalog__category">
         <p>По цене</p>
       </div>
       <ul class="catalog__list">
         <li class="catalog__item">
           <a class="catalog__item-image" href="catalog__item.html">
-            <img src="img/photo-window-mobile@1x.jpg" width="273" height="200" alt="фото каталога">
+            <img src="img/catalog-img1.png" width="273" height="200" alt="фото каталога">
           </a>
           <div class="catalog__info-page">
-            <p class="catalog__info-name">Плов Чайханский <span class="catalog__info-weight">250 г<span></p>
+            <p class="catalog__info-name">Плов Чайханский<span class="catalog__info-weight">250 г<span></p>
               <p class="catalog__info-price">246 ₽</p>
             </div>
             <div class="catalog__discription">
