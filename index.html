@@ -11,34 +11,34 @@
 <body>
   <header class="page-header">
     <div class="page-header__wrapper">
-    <nav class="main-nav main-nav--opened">
-      <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
-      <div class="main-nav__wrapper">
-        <ul class="main-nav__list">
-          <li class="site-list__item">
-            <a class="main-nav__link main-nav__link--active">Рестораны</a>
-          </li>
-          <li class="site-list__item">
-            <a class="main-nav__link" href="photo.html">Доставка</a>
-          </li>
-          <li class="site-list__item">
-            <a class="main-nav__link" href="form.html">О нас</a>
-          </li>
-          <li class="site-list__item">
-            <a class="main-nav__link" href="#">Новости</a>
-          </li>
-          <li class="site-list__item">
-            <a class="main-nav__link" href="#">Контакты</a>
-          </li>
-        </ul>
+      <nav class="main-nav main-nav--opened">
+        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list">
+            <li class="site-list__item">
+              <a class="main-nav__link main-nav__link--active">Рестораны</a>
+            </li>
+            <li class="site-list__item">
+              <a class="main-nav__link" href="photo.html">Доставка</a>
+            </li>
+            <li class="site-list__item">
+              <a class="main-nav__link" href="form.html">О нас</a>
+            </li>
+            <li class="site-list__item">
+              <a class="main-nav__link" href="#">Новости</a>
+            </li>
+            <li class="site-list__item">
+              <a class="main-nav__link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <a class="page-header__logo">
+        <img class="page-header__logo-image" src="img/logo.png" width="64" height="64" alt="Лого Ресторана">
+      </a>
+      <div class="page-header__person">
+        <span class="visually-hidden">Лого заказчика</span>
       </div>
-    </nav>
-    <a class="page-header__logo">
-      <img class="page-header__logo-image" src="img/logo.png" width="64" height="64" alt="Лого Ресторана">
-    </a>
-    <div class="person">
-    <span class="visually-hidden">Лого заказчика</span>
-    </div>
     </div>
   </header>
   <main class="page-main">
@@ -46,9 +46,11 @@
     <section class="order">
       <div class="order__wrapper">
         <div class="order__container">
-          <h2 class="order__title">
-            Ресторан
-          </h2>
+          <div class="order__title-container">
+            <h2 class="order__title">
+              Ресторан
+            </h2>
+          </div>
           <ul class="order__list">
             <li class="order__item">
               <p class="order__name">Кухня</p>
@@ -97,11 +99,11 @@
             <img src="img/catalog-img1.png" width="273" height="200" alt="фото каталога">
           </a>
           <div class="catalog__info-page">
-            <p class="catalog__info-name">Плов Чайханский<span class="catalog__info-weight">250 г<span></p>
+            <p class="catalog__info-name">Плов Чайханский<span class="catalog__info-weight">&nbsp;250 г<span></p>
               <p class="catalog__info-price">246 ₽</p>
             </div>
             <div class="catalog__discription">
-              <p>Камчатский краб, авокадо, свежие овощи и цитрусовый...<a class="catalog__link">подробнее</a></p>
+              <p>Камчатский краб, авокадо, свежие овощи и цитрусовый...<b><a class="catalog__discription-link">подробнее</a></b></p>
             </div>
           </li>
           <li class="catalog__item">
@@ -109,11 +111,11 @@
               <img src="img/open.png" width="273" height="200" alt="фото каталога">
             </a>
             <div class="catalog__info-page">
-              <p class="catalog__info-name">Плов Чайханский <span class="catalog__info-weight">250 г<span></p>
+              <p class="catalog__info-name">Плов Чайханский <span class="catalog__info-weight">&nbsp;250 г<span></p>
                 <p class="catalog__info-price">246 ₽</p>
               </div>
               <div class="catalog__discription">
-                <p>Камчатский краб, авокадо, свежие овощи и цитрусовый...<a class="catalog__link">подробнее</a></p>
+                <p>Камчатский краб, авокадо, свежие овощи и цитрусовый...<b><a class="catalog__discription-link">подробнее</a></b></p>
               </div>
             </li>
             <li class="catalog__item">
@@ -121,11 +123,11 @@
                 <img src="img/catalog-img3.png" width="273" height="200" alt="фото каталога">
               </a>
               <div class="catalog__info-page">
-                <p class="catalog__info-name">Плов Чайханский <span class="catalog__info-weight">250 г<span></p>
+                <p class="catalog__info-name">Плов Чайханский <span class="catalog__info-weight">&nbsp;250 г<span></p>
                   <p class="catalog__info-price">246 ₽</p>
                 </div>
                 <div class="catalog__discription">
-                  <p>Камчатский краб, авокадо, свежие овощи и цитрусовый...<a class="catalog__link">подробнее</a></p>
+                  <p>Камчатский краб, авокадо, свежие овощи и цитрусовый...<b><a class="catalog__discription-link">подробнее</a></b></p>
                 </div>
               </li>
               <li class="catalog__item">
@@ -133,11 +135,11 @@
                   <img src="img/catalog-img4.png" width="273" height="200" alt="фото каталога">
                 </a>
                 <div class="catalog__info-page">
-                  <p class="catalog__info-name">Плов Чайханский <span class="catalog__info-weight">250 г<span></p>
+                  <p class="catalog__info-name">Плов Чайханский <span class="catalog__info-weight">&nbsp;250 г<span></p>
                     <p class="catalog__info-price">246 ₽</p>
                   </div>
                   <div class="catalog__discription">
-                    <p>Камчатский краб, авокадо, свежие овощи и цитрусовый...<a class="catalog__link">подробнее</a></p>
+                    <p>Камчатский краб, авокадо, свежие овощи и цитрусовый...<b><a class="catalog__discription-link">подробнее</a></b></p>
                   </div>
                 </li>
                 <li class="catalog__item">
@@ -145,11 +147,11 @@
                     <img src="img/catalog-img5.png" width="273" height="200" alt="фото каталога">
                   </a>
                   <div class="catalog__info-page">
-                    <p class="catalog__info-name">Плов Чайханский <span class="catalog__info-weight">250 г<span></p>
+                    <p class="catalog__info-name">Плов Чайханский <span class="catalog__info-weight">&nbsp;250 г<span></p>
                       <p class="catalog__info-price">246 ₽</p>
                     </div>
                     <div class="catalog__discription">
-                      <p>Камчатский краб, авокадо, свежие овощи и цитрусовый...<a class="catalog__link">подробнее</a></p>
+                      <p>Камчатский краб, авокадо, свежие овощи и цитрусовый...<b><a class="catalog__discription-link">подробнее</a></b></p>
                     </div>
                   </li>
                   <li class="catalog__item">
@@ -157,11 +159,11 @@
                       <img src="img/catalog-img6.png" width="273" height="200" alt="фото каталога">
                     </a>
                     <div class="catalog__info-page">
-                      <p class="catalog__info-name">Плов Чайханский <span class="catalog__info-weight">250 г<span></p>
+                      <p class="catalog__info-name">Плов Чайханский <span class="catalog__info-weight">&nbsp;250 г<span></p>
                         <p class="catalog__info-price">246 ₽</p>
                       </div>
                       <div class="catalog__discription">
-                        <p>Камчатский краб, авокадо, свежие овощи и цитрусовый...<a class="catalog__link">подробнее</a></p>
+                        <p>Камчатский краб, авокадо, свежие овощи и цитрусовый...<b><a class="catalog__discription-link">подробнее</a></b></p>
                       </div>
                     </li>
                     <li class="catalog__item">
@@ -169,11 +171,11 @@
                         <img src="img/catalog-img7.png" width="273" height="200" alt="фото каталога">
                       </a>
                       <div class="catalog__info-page">
-                        <p class="catalog__info-name">Плов Чайханский <span class="catalog__info-weight">250 г<span></p>
+                        <p class="catalog__info-name">Плов Чайханский <span class="catalog__info-weight">&nbsp;250 г<span></p>
                           <p class="catalog__info-price">246 ₽</p>
                         </div>
                         <div class="catalog__discription">
-                          <p>Камчатский краб, авокадо, свежие овощи и цитрусовый...<a class="catalog__link">подробнее</a></p>
+                          <p>Камчатский краб, авокадо, свежие овощи и цитрусовый...<b><a class="catalog__discription-link">подробнее</a></b></p>
                         </div>
                       </li>
                       <li class="catalog__item">
@@ -181,11 +183,11 @@
                           <img src="img/catalog-img8.png" width="273" height="200" alt="фото каталога">
                         </a>
                         <div class="catalog__info-page">
-                          <p class="catalog__info-name">Плов Чайханский <span class="catalog__info-weight">250 г<span></p>
+                          <p class="catalog__info-name">Плов Чайханский <span class="catalog__info-weight">&nbsp;250 г<span></p>
                             <p class="catalog__info-price">246 ₽</p>
                           </div>
                           <div class="catalog__discription">
-                            <p>Камчатский краб, авокадо, свежие овощи и цитрусовый...<span class="catalog__discription-link"><a>подробнее</a></span></p>
+                            <p>Камчатский краб, авокадо, свежие овощи и цитрусовый...<b><a class="catalog__discription-link">подробнее</a></b></p>
                           </div>
                         </li>
                       </ul>
@@ -193,7 +195,7 @@
                     <section class="my-order">
                       <a href="" class="my-order__link">
                         <b class="my-order__title">Мой заказ</b>
-                        <p class="my-order__numer">Пока пусто</p>
+                        <p class="my-order__number">Пока пусто</p>
                       </a>
                     </section>
                   </main>
