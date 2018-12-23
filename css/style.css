@@ -46,6 +46,10 @@ a {
   color: #ffffff;
 }
 
+.order__wrapper {
+
+}
+
 .order__title {
   line-height: 70px;
   font-size: 48px;
@@ -83,4 +87,34 @@ a {
 .catalog__title {
   line-height: 36px;
   font-size: 32px;
+}
+
+.catalog__category--price {
+  font-size: 18px;
+}
+
+.catalog__list {
+  list-style: none;
+}
+
+.catalog__info-name {
+  font-size: 18px;
+}
+
+.catalog__info-weight {
+  opacity: 0.5;
+}
+
+.catalog__info-price {
+  font-size: 16px;
+}
+
+.catalog__discription {
+  line-height: 21px;
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+.catalog__discription-link {
+  opacity: 1;
 }

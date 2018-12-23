@@ -41,24 +41,26 @@
   <main class="page-main">
     <h1 class="visually-hidden">Меню ресторана</h1>
     <section class="order">
-      <h2 class="order__title">
-        Ресторан
-      </h2>
-      <div class="order__container">
-        <ul class="order__list">
-          <li class="order__item">
-            <p class="order__name">Кухня</p>
-            <b class="order__details">Восточная</b>
-          </li>
-          <li class="order__item">
-            <p class="order__name">Заказ</p>
-            <b class="order__details">От 1000 ₽</b>
-          </li>
-          <li class="order__item">
-            <p class="order__name">Доставка</p>
-            <b class="order__details">с 11:00 до 02:00</b>
-          </li>
-        </ul>
+      <div class="order__wrapper">
+        <h2 class="order__title">
+          Ресторан
+        </h2>
+        <div class="order__container">
+          <ul class="order__list">
+            <li class="order__item">
+              <p class="order__name">Кухня</p>
+              <b class="order__details">Восточная</b>
+            </li>
+            <li class="order__item">
+              <p class="order__name">Заказ</p>
+              <b class="order__details">От 1000 ₽</b>
+            </li>
+            <li class="order__item">
+              <p class="order__name">Доставка</p>
+              <b class="order__details">с 11:00 до 02:00</b>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
     <section class="categories">
@@ -84,7 +86,7 @@
     <section class="catalog">
       <h3 class="catalog__title">Популярные</h3>
       <div class="catalog__category">
-        <p>По цене</p>
+        <p class="catalog__category--price">По цене</p>
       </div>
       <ul class="catalog__list">
         <li class="catalog__item">
@@ -101,7 +103,7 @@
           </li>
           <li class="catalog__item">
             <a class="catalog__item-image" href="catalog__item.html">
-              <img src="img/photo-window-mobile@1x.jpg" width="273" height="200" alt="фото каталога">
+              <img src="img/open.png" width="273" height="200" alt="фото каталога">
             </a>
             <div class="catalog__info-page">
               <p class="catalog__info-name">Плов Чайханский <span class="catalog__info-weight">250 г<span></p>
@@ -113,7 +115,7 @@
             </li>
             <li class="catalog__item">
               <a class="catalog__item-image" href="catalog__item.html">
-                <img src="img/photo-window-mobile@1x.jpg" width="273" height="200" alt="фото каталога">
+                <img src="img/catalog-img3.png" width="273" height="200" alt="фото каталога">
               </a>
               <div class="catalog__info-page">
                 <p class="catalog__info-name">Плов Чайханский <span class="catalog__info-weight">250 г<span></p>
@@ -125,7 +127,7 @@
               </li>
               <li class="catalog__item">
                 <a class="catalog__item-image" href="catalog__item.html">
-                  <img src="img/photo-window-mobile@1x.jpg" width="273" height="200" alt="фото каталога">
+                  <img src="img/catalog-img4.png" width="273" height="200" alt="фото каталога">
                 </a>
                 <div class="catalog__info-page">
                   <p class="catalog__info-name">Плов Чайханский <span class="catalog__info-weight">250 г<span></p>
@@ -137,7 +139,7 @@
                 </li>
                 <li class="catalog__item">
                   <a class="catalog__item-image" href="catalog__item.html">
-                    <img src="img/photo-window-mobile@1x.jpg" width="273" height="200" alt="фото каталога">
+                    <img src="img/catalog-img5.png" width="273" height="200" alt="фото каталога">
                   </a>
                   <div class="catalog__info-page">
                     <p class="catalog__info-name">Плов Чайханский <span class="catalog__info-weight">250 г<span></p>
@@ -149,7 +151,7 @@
                   </li>
                   <li class="catalog__item">
                     <a class="catalog__item-image" href="catalog__item.html">
-                      <img src="img/photo-window-mobile@1x.jpg" width="273" height="200" alt="фото каталога">
+                      <img src="img/catalog-img6.png" width="273" height="200" alt="фото каталога">
                     </a>
                     <div class="catalog__info-page">
                       <p class="catalog__info-name">Плов Чайханский <span class="catalog__info-weight">250 г<span></p>
@@ -161,7 +163,7 @@
                     </li>
                     <li class="catalog__item">
                       <a class="catalog__item-image" href="catalog__item.html">
-                        <img src="img/photo-window-mobile@1x.jpg" width="273" height="200" alt="фото каталога">
+                        <img src="img/catalog-img7.png" width="273" height="200" alt="фото каталога">
                       </a>
                       <div class="catalog__info-page">
                         <p class="catalog__info-name">Плов Чайханский <span class="catalog__info-weight">250 г<span></p>
@@ -173,14 +175,14 @@
                       </li>
                       <li class="catalog__item">
                         <a class="catalog__item-image" href="catalog__item.html">
-                          <img src="img/photo-window-mobile@1x.jpg" width="273" height="200" alt="фото каталога">
+                          <img src="img/catalog-img8.png" width="273" height="200" alt="фото каталога">
                         </a>
                         <div class="catalog__info-page">
                           <p class="catalog__info-name">Плов Чайханский <span class="catalog__info-weight">250 г<span></p>
                             <p class="catalog__info-price">246 ₽</p>
                           </div>
                           <div class="catalog__discription">
-                            <p>Камчатский краб, авокадо, свежие овощи и цитрусовый...<a class="catalog__link">подробнее</a></p>
+                            <p>Камчатский краб, авокадо, свежие овощи и цитрусовый...<span class="catalog__discription-link"><a>подробнее</a></span></p>
                           </div>
                         </li>
                       </ul>
