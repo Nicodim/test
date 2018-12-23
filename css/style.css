@@ -246,8 +246,29 @@ a {
     background-size: cover;
     background-position: center;
   }
-}
 
+  .order__container {
+    top:600px;
+    padding-bottom: 35px;
+  }
+
+  .order__title-container {
+    width: 640px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .order__list {
+    margin: 0;
+    padding-top: 46px;
+    margin-right: 75px;
+  }
+
+  .order__name {
+    margin: 0;
+  }
+}
 
 .categories {
   font-size: 18px;
@@ -276,6 +297,17 @@ a {
 }
 .categories__link:active {
   color: #D62323;
+}
+
+@media (min-width: 660px) {
+  .categories__list {
+    width: 640px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }
 
 .catalog {
