@@ -46,7 +46,6 @@
           </svg>
           Константин
         </a>
-
       </div>
     </div>
   </header>
@@ -56,27 +55,30 @@
       <div class="page-main__columns--left">
         <section class="order">
           <div class="order__wrapper">
-            <div class="order__container">
-              <div class="order__title-container">
-                <h2 class="order__title">
-                  Ресторан
-                </h2>
-                <ul class="order__list">
-                  <li class="order__item">
-                    <p class="order__name">Кухня</p>
-                    <b class="order__details">Восточная</b>
-                  </li>
-                  <li class="order__item">
-                    <p class="order__name">Заказ</p>
-                    <b class="order__details">От 1000 ₽</b>
-                  </li>
-                  <li class="order__item">
-                    <p class="order__name">Доставка</p>
-                    <b class="order__details">с 11:00 до 02:00</b>
-                  </li>
-                </ul>
+              <div class="order__container">
+                <div class="order__title-container">
+                  <h2 class="order__title">
+                    Ресторан
+                  </h2>
+                  <ul class="order__list">
+                    <li class="order__item">
+                      <p class="order__name">Кухня</p>
+                      <b class="order__details">Восточная</b>
+                    </li>
+                    <li class="order__item">
+                      <p class="order__name">Заказ</p>
+                      <b class="order__details">От 1000 ₽</b>
+                    </li>
+                    <li class="order__item">
+                      <p class="order__name">Доставка</p>
+                      <b class="order__details">с 11:00 до 02:00</b>
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </div>
+              <div class="order__about">
+                <a class="order__about-link" href="about.html">О ресторане</a>
+              </div>
           </div>
         </section>
         <section class="categories">
@@ -211,5 +213,55 @@
       </section>
     </div>
   </main>
+  <section class="modal">
+    <div class="modal__wrapper">
+    <div class="modal__container">
+      <div class="modal__image" href="catalog__item.html">
+        <img src="img/catalog-img7.png" width="273" height="200" alt="фото каталога">
+      </div>
+      <div class="modal__description">
+        <h3 class="modal__title">Стейк из говядины 250 г</h3>
+        <ul class="modal__list">
+          <li class="modal__item">
+            <h3 class="modal__item-title">Описание</h3>
+            <p>Стейк из поясничной части мраморной говядины. Рекомендуемая степень прожарки medium</p>
+          </li>
+          <li class="modal__item">
+            <h3 class="modal__item-title">Состав</h3>
+            <p>Микс салатов, лосось, соус терияки, соус Унаги</p>
+          </li>
+          <li class="modal__item">
+            <h3 class="modal__item-title">Пищевая ценность</h3>
+            <ul class="modal__value-list value__list">
+              <li class="value__item">
+                <number>650</number>
+                <p>ккал</p>
+              </li>
+              <li class="value__item">
+                <number>34</number>
+                <p>белки</p>
+              </li>
+              <li class="value__item">
+                <number>60</number>
+                <p>жиры</p>
+              </li>
+              <li class="value__item">
+                <number>12</number>
+                <p>углеводы</p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="midal__quantity">
+      <span>-</span>
+      <span>2</span>
+      <span>+</span>
+    </div>
+    <button type="submit" class="midal__submit button">Готово</button>
+  </div>
+  <button class="modal__close" type="button">x</button>
+  </section>
 </body>
 </html>
