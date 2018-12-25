@@ -564,11 +564,15 @@ a {
 }
 
 .modal {
+  position: fixed;
+  top: 300px;
+  left: 27%;
   width: 300px;
   padding: 0;
   margin: 0 auto;
   background-color: #ffffff;
   font-size: 15px;
+
 }
 
 .modal__image {
@@ -588,6 +592,7 @@ a {
 .modal__description-container {
   width: 300px;
   padding: 40px 10px;
+  padding-bottom: 1px;
 }
 
 .modal__title {
@@ -645,4 +650,111 @@ a {
   font-size: 12px;
   opacity: 0.4;
   margin: 0;
+}
+
+.modal__buttoms {
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.modal__quantity {
+  display: inline-block;
+  padding: 18px 20px;
+  padding-bottom: 7px;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #B81111;
+  color: #ffffff;
+}
+
+.modal__quantity-number {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  font-size: 0;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  top: -5px;
+}
+
+.quantity-number__minus::before {
+ content: "";
+ position: absolute;
+ width: 10px;
+ height: 2px;
+ background-color: #ffffff;
+ top: 15px;
+ left: 10px;
+}
+
+.quantity-number__plus::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  background-color: #ffffff;
+  top: 15px;
+  left: 10px;
+  transform: rotate(90deg);
+}
+
+.quantity-number__plus::after{
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  background-color: #ffffff;
+  top: 15px;
+  left: 10px;
+}
+
+.modal__submit {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 140px;
+  height: 57px;
+  line-height: 17px;
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #D62323;
+  border: none;
+  flex-grow: 1;
+}
+.modal__close {
+  position: absolute;
+  bottom: 705px;
+  right: 1px;
+  width: 80px;
+  height: 80px;
+  font-size: 0;
+  background-color: #F9F9FA;
+  border: 0;
+  cursor: pointer;
+}
+
+.modal__close::before,
+.modal__close::after {
+  content: "";
+  position: absolute;
+  width: 28px;
+  height: 2px;
+  top: 38px;
+  left: 24px;
+  background-color: #6E6E6E;
+}
+
+.modal__close::before {
+  transform: rotate(45deg);
+}
+
+.modal__close::after {
+  transform: rotate(-45deg);
 }
