@@ -483,7 +483,7 @@ a {
     width: 640px;
     margin: 0 auto;
   }
-  
+
   .catalog__list  {
     width: 640px;
     display: flex;
@@ -499,10 +499,11 @@ a {
 @media (min-width: 1200px) {
   .catalog {
     width: 1400px;
+    margin-bottom: 158px;
   }
 
   .catalog__list {
-    width: 1400px;
+    width: 1350px;
   }
 }
 
@@ -528,5 +529,36 @@ a {
 @media (min-width: 1200px) {
   .my-order {
     width: 300px;
+    border-left: 1px solid #E8EAED;
+  }
+
+  .my-order__title {
+    position: relative;
+    line-height: 27px;
+    font-size: 24px;
+  }
+
+  .my-order__title::after {
+    position: absolute;
+    content: " ";
+    display: block;
+    width: 236px;
+    height: 236px;
+    background-image: url("../img/Object.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+    right: -68px;
+    top: 45px;
+  }
+
+  .my-order__number {
+    display: block;
+    position: relative;
+    line-height: 23px;
+    font-size: 18px;
+    color: #A7A7A7;
+    top: 260px;
+    left: 5px;
   }
 }
