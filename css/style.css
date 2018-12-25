@@ -313,7 +313,6 @@ a {
     padding-bottom: 60px;
     padding-top: 19px;
     margin: 0;
-    position: relative;
   }
   .order__about {
     position: absolute;
@@ -335,6 +334,7 @@ a {
   .order__title-container {
     margin-left: 206px;
     padding-top: 4px;
+    position: relative;
   }
 }
 
@@ -572,7 +572,8 @@ a {
   margin: 0 auto;
   background-color: #ffffff;
   font-size: 15px;
-
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.7);
+  display: none;
 }
 
 .modal__image {
@@ -683,13 +684,13 @@ a {
 }
 
 .quantity-number__minus::before {
- content: "";
- position: absolute;
- width: 10px;
- height: 2px;
- background-color: #ffffff;
- top: 15px;
- left: 10px;
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  background-color: #ffffff;
+  top: 15px;
+  left: 10px;
 }
 
 .quantity-number__plus::before {
