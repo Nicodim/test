@@ -419,11 +419,13 @@ a {
 .categories__link {
   color: #000000;
   display: block;
+  transition: 0.6s;
 }
 
 .categories__link:hover,
 .categories__link:focus {
   color: #D62323;
+  transition: 0.2s;
 }
 
 .categories__link:active {
