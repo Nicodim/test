@@ -385,11 +385,12 @@ a {
   width: 48px;
   height: 48px;
   box-shadow: 0 8px 10px rgba(0, 0, 0, 0.7);
-  right: 25%;
-  top: 150px;
+  right: 7%;
+  top: 300px;
   font-size: 0;
   border-radius: 50%;
   z-index: 10;
+  cursor: pointer;
 }
 
 .categories__list-img {
@@ -434,6 +435,7 @@ a {
 
 @media (min-width: 660px) {
   .categories__list-wrapper {
+    display: block;
     width: auto;
     border-bottom: 1px solid #E8EAED;
   }
@@ -454,6 +456,35 @@ a {
 @media (max-width: 1199px) {
   .categories__list-wrapper {
     display: none;
+    position: fixed;
+    width: 100%;
+    height: 500px;
+    top: 71px;
+    background-color: #ffffff;
+    z-index: 50;
+  }
+
+  @keyframes bounce {
+    0% {
+      transform: translateY(-2000px);
+    }
+
+    70% {
+      transform: translateY(30px);
+    }
+
+    90% {
+      transform: translateY(-10px);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .categories__modal-show {
+    display: block;
+    animation: bounce 0.6s;
   }
 }
 
