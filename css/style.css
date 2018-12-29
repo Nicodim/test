@@ -9,6 +9,18 @@ body {
   background-color: #ffffff;
 }
 
+@font-face {
+font-family: "TTNorms";
+src: url("../Fonts/TTNorms-Regular.otf") format(".otf");
+font-weight: 400;
+}
+
+@font-face {
+font-family: "TTNorms";
+src: url("../Fonts/TTNorms-Bold.otf") format(".otf");
+font-weight: 700;
+}
+
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
